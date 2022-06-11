@@ -5,5 +5,5 @@
     - "../vars/default-distribution.yml"
 
 - include: backup.yml
-  when: backup_enabled
+  when: backup_enabled|bool
   tags: [backup]
