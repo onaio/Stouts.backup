@@ -16,6 +16,14 @@ backup_temp_dir: /tmp
 backup_duplicity_pkg: duplicity
 backup_duplicity_version:       # Set duplicity version
 
+# Apt packages
+backup_apt_dependencies:
+  - "cron"
+  - "gzip"
+  - "python3-boto3"
+  - "s3cmd"
+  - "ssmtp"
+
 # Logging
 backup_logdir: /var/log/duply   # Place where logs will be keepped
 backup_logrotate: yes           # Setup logs rotation
