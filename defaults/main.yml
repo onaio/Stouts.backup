@@ -20,7 +20,7 @@ backup_duplicity_version:       # Set duplicity version
 backup_apt_dependencies:
   - "cron"
   - "gzip"
-  - "python3-boto3"
+  - "python3-boto"
   - "s3cmd"
   - "ssmtp"
 
