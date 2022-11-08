@@ -2,6 +2,6 @@
 backup_package_deps:
   - cron
   - gzip
-  - python-boto
+  - python3-boto
   - s3cmd
   - ssmtp
